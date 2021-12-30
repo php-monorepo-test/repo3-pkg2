@@ -1,5 +1,5 @@
 {
-    "name": "example/monorepo1",
+    "name": "example/subpackage2",
     "require": {
         "symfony/console": "^5.3"
     },
@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Example\\Monorepo1\\NS\\SubPackage2\\": "/"
+            "Example\\Monorepo1\\NS\\SubPackage2\\": ""
         }
     }
 }
